@@ -1,0 +1,111 @@
+* {
+  list-style: none;
+
+  text-decoration: none;
+}
+
+html, body {
+  font-family: sans-serif;
+  font-weight: 300;
+
+  height: 100%;
+
+  color: #01213b;
+  background-color: #fdfffc;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+p {
+  font-family: "Lato";
+  font-size: 1.2em;
+}
+
+a {
+  font-family: "Quattrocento", serif;
+
+  color: #01213b;
+}
+
+a:hover {
+  cursor: pointer;
+
+  border-bottom: 2px solid #063b67;
+}
+
+header {
+  height: 75px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 30%;
+
+  border-right: 1px solid #8c99a3;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  height: 200px;
+  padding-left: 0;
+}
+
+nav li {
+  text-align: center;
+}
+
+nav a {
+  font-size: 1.2em;
+
+  transition: font-size 0.5s ease;
+}
+
+.nav-open {
+  font-size: 1.4em;
+
+  transition: font-size 0.5s ease;
+}
+
+main {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+
+  padding: 5%;
+}
+
+article {
+  padding: 20px 0;
+}
+
+.js-sec2 a {
+  display: block;
+  padding: 20px 0;
+}
+
+footer {
+  font-size: 0.6em;
+
+  display: flex;
+  justify-content: center;
+
+  height: 75px;
+}
