@@ -52,7 +52,7 @@ nav {
   flex-direction: column;
   justify-content: center;
 
-  width: 30%;
+  width: 33.3%;
 
   border-right: 1px solid #8c99a3;
 }
@@ -87,7 +87,7 @@ main {
   align-items: flex-start;
   flex-direction: column;
   justify-content: center;
-  width: 70%;
+  width: 66.6%;
 
   padding: 5%;
 }
