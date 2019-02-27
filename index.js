@@ -1,8 +1,8 @@
 /* eslint-env jquery*/
-$(startUp);
 let $main;
+$(initialize);
 
-function startUp() {
+function initialize() {
   $main = $('main');
   navigate('nav0');
   addListeners();
@@ -63,8 +63,8 @@ function render1() {
       }),
       $('<article>', {
         html: $('<a>', {
-          href: "https://github.com/tkshehan/tekken-7-frames",
-          text: 'Tekken 7 Frame Data API',
+          href: "https://github.com/tkshehan/t7-client",
+          text: 'Tekken 7 Frame Data',
         })
       }),
       $('<article>', {
