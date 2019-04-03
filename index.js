@@ -43,7 +43,7 @@ function render0() {
     class: 'js-sec0 about',
     html: $('<p>', {
       text: `
-        Highly motivated web developer focused on customer satisfaction, and
+        Highly motivated web developer focused on customer satisfaction, with
         experience building RESTful APIs,
         managing databases, and building applications with HTML/CSS, Javascript,
         React, and various testing suites.`
