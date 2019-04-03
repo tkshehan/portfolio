@@ -22,6 +22,7 @@ body {
 p {
   font-family: "Lato";
   font-size: 1.2em;
+  max-width: 700px;
 }
 
 a {
@@ -96,7 +97,7 @@ article {
   padding: 20px 0;
 }
 
-.js-sec2 a {
+.contact a {
   display: block;
   margin: 20px 0;
 }

@@ -40,7 +40,7 @@ function navSelect(id) {
 function render0() {
   $main.empty();
   const $section = $('<section>', {
-    class: 'js-sec0',
+    class: 'js-sec0 about',
     html: $('<p>', {
       text: `
         Highly motivated web developer focused on customer satisfaction, and
@@ -55,7 +55,7 @@ function render0() {
 function render1() {
   $main.empty();
   const $section = $('<section>', {
-    class: 'js-sec1',
+    class: 'js-sec1 projects',
     html: [
       $('<article>', {
         html: $('<a>', {
@@ -83,7 +83,7 @@ function render1() {
 function render2() {
   $main.empty();
   const $section = $('<section>', {
-    class: 'js-sec2',
+    class: 'js-sec2 contact',
     html: [
       $('<a>', {
         href: 'https://www.linkedin.com/in/thomaskshehan/',
