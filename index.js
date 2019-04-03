@@ -42,8 +42,10 @@ function render0() {
   const $section = $('<section>', {
     class: 'js-sec0',
     html: $('<p>', {
-      text: `Highly motivated web developer, with experience building RESTful APIs,
-        managing databases, and building applications with Javascript,
+      text: `
+        Highly motivated web developer focused on customer satisfaction, and
+        experience building RESTful APIs,
+        managing databases, and building applications with HTML/CSS, Javascript,
         React, and various testing suites.`
     }),
   });
