@@ -1,6 +1,4 @@
 * {
-  list-style: none;
-
   text-decoration: none;
 }
 
@@ -17,6 +15,12 @@ html, body {
 body {
   display: flex;
   flex-direction: column;
+}
+
+li {
+  list-style: circle;
+  font-family: "Lato";
+  font-size: 1.2em;
 }
 
 p {
@@ -69,6 +73,8 @@ nav ul {
 
 nav li {
   text-align: center;
+
+  list-style: none;
 }
 
 nav a {
@@ -95,6 +101,10 @@ main {
 
 article {
   padding: 20px 0;
+}
+
+article a {
+  border-bottom: 2px solid #063b67;
 }
 
 .contact a {
