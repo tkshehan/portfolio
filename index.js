@@ -90,7 +90,7 @@ function render2() {
   $main.append($section);
 }
 
-function project1() {
+function project2() {
   return $('<article>', {
     html: [
       $('<a>', {
@@ -106,7 +106,7 @@ function project1() {
             text: `API in Express.js/Node.js providing up to date frame data to myself and other developers.`,
           }),
           $('<li>', {
-            text: `Front-end React/Redux webapp continuously under development.`,
+            text: `Front-end React/Redux webapp.`,
           }),
         ],
       }),
@@ -114,7 +114,7 @@ function project1() {
   });
 }
 
-function project2() {
+function project3() {
   return $('<article>', {
     html: [
       $('<a>', {
@@ -130,7 +130,7 @@ function project2() {
             text: `Mobile-first, responsive design, following a11y best practices.`,
           }),
           $('<li>', {
-            text: `Additional resources integrated from multiple outside sources for the convenience of the end-user.`,
+            text: `Including links to resources for players to better understand their game.`,
           }),
         ],
       }),
@@ -138,22 +138,29 @@ function project2() {
   });
 }
 
-function project3() {
+function project1() {
   return $('<article>', {
     html: [$('<a>', {
-      href: "https://github.com/tkshehan/packing-planner",
-      text: 'Simple Packing',
+      href: "https://github.com/tkshehan/invisible",
+      text: 'Cloak & Hacker',
     }),
     $('<ul>', {
       html: [
         $('<li>', {
-          text: `A mobile-first web app for planning, saving, and printing checklists for frequent travelers.`,
+          text: `Stealth Puzzle game made in Godot game engine with a python based language.`,
         }),
         $('<li>', {
-          text: `Features mongodb, express, express-routers, and delivered through browserify for a modulated development environment.`,
+          html: [
+            `Collaborated with a composer, organized using `,
+            $('<a>', {
+              href: "https://sharing.clickup.com/b/h/4-4434024-2/f5e4b4c9ed94d14",
+              text: 'clickup'
+            })
+          ]
+          ,
         }),
         $('<li>', {
-          text: `Continuous integration and testing through Travis-CI.`,
+          text: `Learned and applied many new concepts under time pressure, regularly refactoring for modularity and readability.`,
         }),
       ],
     }),
