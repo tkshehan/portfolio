@@ -163,7 +163,7 @@ function project3() {
             text: `An accessibility focused static web application for Lichess.org users to gather data on their past games.`,
           }),
           $('<li>', {
-            text: `Mobile-first, responsive design, following a11y best practices.`,
+            text: `Mobile-first, responsive design, following accessibility best practices.`,
           }),
           $('<li>', {
             text: `Lichess has since improved their stat tracking, so there is no real reason to update this`,
