@@ -131,7 +131,7 @@ function project2() {
     html: [
       $('<a>', {
         href: "https://github.com/tkshehan/t7-client",
-        text: 'Tekken 7 Frame Data',
+        text: 'Tekken 7 Frame Data(Deprecated)',
       }),
       $('<ul>', {
         html: [
@@ -155,7 +155,7 @@ function project3() {
     html: [
       $('<a>', {
         href: "https://github.com/tkshehan/chess-openings",
-        text: 'Lichess Openings',
+        text: 'Lichess Openings(Deprecated)',
       }),
       $('<ul>', {
         html: [
